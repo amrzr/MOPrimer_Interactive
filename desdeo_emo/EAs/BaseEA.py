@@ -13,7 +13,6 @@ from scipy.special import comb
 from desdeo_tools.utilities import non_dominated
 from desdeo_emo.utilities.non_dominated import check_domination
 
-
 class eaError(Exception):
     """Raised when an error related to EA occurs"""
 

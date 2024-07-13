@@ -10,7 +10,6 @@ from desdeo_problem import MOProblem
 
 from desdeo_tools.utilities import non_dominated
 
-
 class BasePopulation(ABC):
     def __init__(self, problem: MOProblem, pop_size: int, pop_params: Dict = None):
         self.pop_size: int = pop_size
