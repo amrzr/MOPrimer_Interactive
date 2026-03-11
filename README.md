@@ -1,10 +1,10 @@
 # Interactive Evolutionary Multiobjective Optimization of Primer Design with Uncertain Objectives
 
-This repository contais the codes for finding optimal primer designs interactively with uncertainty in the objective extimating the melting temperatures. 
+This repository contains the implementation for the paper [Interactive Evolutionary Multiobjective Optimization of Primer Design with Uncertain Objectives](https://dl.acm.org/doi/abs/10.1145/3638529.3654167) (**GECCO 2024**) for finding optimal primer designs interactively, with uncertainty in the objective, and for estimating melting temperatures. 
 
 ### Data and Results
 * Results of the experiments can be found in the `primer_opt_results` folder.
-* The dataset used for the tests are provided in the `primer_data` folder.
+* The dataset used for the tests is provided in the `primer_data` folder.
 
 ### Clone Repository
 `gh repo clone amrzr/MOPrimer_Interactive`
@@ -14,7 +14,7 @@ This repository contais the codes for finding optimal primer designs interactive
 * Python 3.7 or up
 
 ### Installation Process:
-* Create conda environment by
+* Create a conda environment by
 `conda env create -f environment.yml`
 
 * Activate the conda environment
